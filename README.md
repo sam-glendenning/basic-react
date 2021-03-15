@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Basic React
+
+[![CI Build](https://github.com/sam-glendenning/basic-react/actions/workflows/ci-build.yml/badge.svg)](https://github.com/sam-glendenning/basic-react/actions/workflows/ci-build.yml) [![codecov](https://codecov.io/gh/sam-glendenning/basic-react/branch/master/graph/badge.svg?token=5RYD4IZWLO)](https://codecov.io/gh/sam-glendenning/basic-react)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
