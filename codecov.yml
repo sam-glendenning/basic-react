@@ -1,0 +1,10 @@
+coverage:
+  token: f78bdfdb-2d81-40c9-8fc2-ebbf86b53806
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 5
+    patch:
+      default:
+        target: 75

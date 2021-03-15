@@ -1,6 +1,6 @@
 # Basic React
 
-[![CI Build](https://github.com/sam-glendenning/basic-react/actions/workflows/ci-build.yml/badge.svg)](https://github.com/sam-glendenning/basic-react/actions/workflows/ci-build.yml) [![codecov](https://codecov.io/gh/sam-glendenning/basic-react/branch/master/graph/badge.svg?token=5RYD4IZWLO)](https://codecov.io/gh/sam-glendenning/basic-react)
+[![CI Build](https://github.com/sam-glendenning/basic-react/actions/workflows/ci-build.yml/badge.svg)](https://github.com/sam-glendenning/basic-react/actions/workflows/ci-build.yml) [![codecov](https://codecov.io/gh/sam-glendenning/basic-react/branch/master/graph/badge.svg?token=SRO1WVNK0I)](https://codecov.io/gh/sam-glendenning/basic-react)
 
 
 
