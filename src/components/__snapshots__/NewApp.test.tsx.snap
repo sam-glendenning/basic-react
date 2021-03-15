@@ -4,12 +4,14 @@ exports[`NewApp renders correctly 1`] = `
 <div
   className="NewApp"
 >
-  <h1
+  <h2
     onClick={[Function]}
   >
     Here's another heading!
-  </h1>
-  <p>
+  </h2>
+  <p
+    id="final"
+  >
     Here is a final paragraph.
   </p>
 </div>

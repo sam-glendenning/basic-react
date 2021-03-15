@@ -12,7 +12,7 @@ describe("NewApp", () => {
 
 	it("renders correct text in a header", () => {
 		const wrapper : ShallowWrapper = shallow(<NewApp />);
-		expect(wrapper.find("h1").text()).toBe("Here's another heading!");
+		expect(wrapper.find("h2").text()).toBe("Here's another heading!");
 	});
 
 	it("renders the first paragraph", () => {
@@ -23,7 +23,7 @@ describe("NewApp", () => {
 	it("should alert a secret message on header click", () => {
 		jest.spyOn(window, "alert").mockImplementation(() => {return true;});
 		const wrapper : ShallowWrapper = shallow(<NewApp />);
-		const header = wrapper.find("h1");
+		const header = wrapper.find("h2");
 		header.simulate("click");
 		expect(window.alert).toBeCalledTimes(1);
 	});

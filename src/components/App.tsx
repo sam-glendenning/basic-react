@@ -13,7 +13,7 @@ function App() : ReactElement {
 	return (
 		<div className="App">
 			<h1>{label("Sam")}</h1>
-			<p>Welcome to my React app.</p>
+			<p id="welcome">Welcome to my React app.</p>
 		</div>
 	);
 }

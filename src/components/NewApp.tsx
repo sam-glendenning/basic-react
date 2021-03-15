@@ -11,8 +11,8 @@ class NewApp extends Component {
   public render() : ReactElement {
   	return (
     	<div className="NewApp">
-    		<h1 onClick={this.handleClick}>{this.label}</h1>
-    		<p>Here is a final paragraph.</p>
+    		<h2 onClick={this.handleClick}>{this.label}</h2>
+    		<p id="final">Here is a final paragraph.</p>
     	</div>
   	);
   }

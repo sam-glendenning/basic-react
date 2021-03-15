@@ -42,5 +42,8 @@
         "react": {
             "version": "detect"
         }
-    }
+    },
+    "ignorePatterns": [
+        "src/cypress"
+    ]
 }

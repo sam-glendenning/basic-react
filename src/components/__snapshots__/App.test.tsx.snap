@@ -7,7 +7,9 @@ exports[`App renders correctly 1`] = `
   <h1>
     Hello, Sam!
   </h1>
-  <p>
+  <p
+    id="welcome"
+  >
     Welcome to my React app.
   </p>
 </div>
