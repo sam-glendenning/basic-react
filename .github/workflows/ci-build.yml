@@ -37,7 +37,7 @@ jobs:
       - name: Run jest tests
         run: npm test
       - name: Run e2e tests
-        run: npm run e2e
+        run: npm run e2e-record
       - name: Upload unit test coverage
         if: success()
         uses: codecov/codecov-action@v1
