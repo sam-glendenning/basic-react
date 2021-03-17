@@ -24,7 +24,9 @@
     "lint": "eslint --ext=tsx --ext=js --ext=jsx --fix ./src",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:run-record": "cypress run --record --key 138928d3-61ed-4b27-9f40-fbed614d3596"
+    "cy:run-record": "cypress run --record --key 138928d3-61ed-4b27-9f40-fbed614d3596",
+    "e2e": "start-server-and-test start http://localhost:3000 cy:run",
+    "e2e-record": "start-server-and-test start http://localhost:3000 cy:run-record"
   },
   "eslintConfig": {
     "extends": [
